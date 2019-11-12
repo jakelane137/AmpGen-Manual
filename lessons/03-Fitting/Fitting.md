@@ -44,9 +44,9 @@ Parameter D0{K(0)*(1430)+[GLASS]{K0S0,pi+},pi-}_Re Free 0.0231752 0.0104443 0 0.
 ```
 which translates to 
 
-```math
+$$
 \Re(a(D^0 \to K_0^*(1430)^+ \pi^-)) = 0.0231752 \pm 0.0104443
-```
+$$
 
 The line 
 
@@ -55,17 +55,17 @@ FitQuality 471.85207 512 38 -18818.676 0
 ```
 
 gives the "Fit Quality", in this case we have
-```math
+$$
 \chi^2 = 471.85207 \\
 N_{bins} = 512 \\
 N_{params} = 38 \\
 -2\log\mathcal{L} = -18818.676
-```
+$$
 The number of degrees of freedom is given by
 $$
 N_{dof} = N_{bins} - N_{params} - 1
 $$
 
-so we have a $`\chi^2/N_{dof} = 0.9976`$, which is close to 1 (as expected!)
+so we have a $\chi^2/N_{dof} = 0.9976$, which is close to 1 (as expected!)
 
 
