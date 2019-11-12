@@ -66,6 +66,6 @@ $$
 N_{dof} = N_{bins} - N_{params} - 1
 $$
 
-so we have a $\chi^2/N_{dof} = 0.9976$, which is close to 1 (as expected!)
+so we have a $$\chi^2/N_{dof} = 0.9976$$, which is close to 1 (as expected!)
 
 
