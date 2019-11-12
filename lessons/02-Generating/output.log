@@ -1,0 +1,43 @@
+
+[2;31m    █████╗ ███╗   ███╗██████╗  ██████╗ ███████╗███╗   ██╗
+   ██╔══██╗████╗ ████║██╔══██╗██╔════╝ ██╔════╝████╗  ██║
+   ███████║██╔████╔██║██████╔╝██║  ███╗█████╗  ██╔██╗ ██║
+   ██╔══██║██║╚██╔╝██║██╔═══╝ ██║   ██║██╔══╝  ██║╚██╗██║
+   ██║  ██║██║ ╚═╝ ██║██║     ╚██████╔╝███████╗██║ ╚████║
+   ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚══════╝╚═╝  ╚═══╝
+[0m
+[1m                      version 1.2
+        build: gcc 9.2.1  Oct 22 2019 17:19:46[0m
+
+[1m Release notes (v1r2)[0m
+ - Tagged to match results in Gauss/LbAmpGen v49r14+ 
+ - Improved thread support for CoherentSum
+ - Add examples/QcGenerator for Ψ(3770) decays 
+ - Updated ExpressionParser with improved stability.
+ - Removed unused / untested lineshapes AxialKaon and ObelixRho 
+
+[2;34mvoid OptionsParser::import                     INFO         [0mImporting: kspipi.opt
+[1;35mOptionsParser::import                          WARNING      [0mOverwriting parameter: EventType
+[2;34mvoid OptionsParser::import                     INFO         [0mImporting: /home/jlane/sw/AmpGen/options/kMatrix.opt
+[2;34mint main                                       INFO         [0mUsing: 4 / 4 threads
+[2;34mint main                                       INFO         [0mGenerating time-dependence? 0
+[2;34mint main                                       INFO         [0mGenerating events with type = D0 → [K0S0, pi+, pi-]
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{K(0)*(1430)bar-[LASS.BW]{K0S0,pi-},pi+}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{K(0)*(1430)bar-[LASS.NR]{K0S0,pi-},pi+}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{K*(892)bar-{K0S0,pi-},pi+}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.pole.0]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.pole.1]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.pole.2]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.pole.3]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.prod.0]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.prod.1]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.prod.2]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{PiPi00[kMatrix.prod.3]{pi+,pi-},K0S0}
+[2;34mCoherentSum::CoherentSum                       INFO         [0mD0{rho(770)0{pi+,pi-},K0S0}
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mSetting normalisation constant = 4.66655
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mCompleted:  32% [|||||||||||||||||||                                         ] ε[gen] = 3.25% , 0 seconds[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mCompleted:  64% [||||||||||||||||||||||||||||||||||||||                      ] ε[gen] = 3.17% , 0 seconds[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mCompleted:  97% [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ] ε[gen] = 3.36% , 0 seconds[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mCompleted: 100% [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||] ε[gen] = 0.23% , 1 seconds
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mGenerated 10000 events in 1118.93 ms
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mGenerating phase space : 309.544 ms
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mEvaluating PDF         : 701.646 ms
+[2;34mvoid Generator<PHASESPACE>::fillEventList      INFO         [0mDoing accept/reject    : 44.6088 ms
+[2;34mint main                                       INFO         [0mWriting output file 
