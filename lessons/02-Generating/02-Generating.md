@@ -13,7 +13,7 @@ To generate events we use the command `Generator`, which takes the arguments
 
 We must also define our amplitude model (as seen in the [Amplitude Lesson](lessons/02-Amplitudes/02-Amplitudes.md))
 
-In our example let's generate 10,000  $`D^0 \to K_S^0 \pi^+ \pi^-`$ events and save them as `Output.root` using the options file called `kspipi.opt`
+In our example let's generate 10,000  $$D^0 \to K_S^0 \pi^+ \pi^-$$ events and save them as `Output.root` using the options file called `kspipi.opt`
 ```
 Generator --Output Output.root --EventType "D0 K0S0 pi- pi+" --nEvents 10000 --Seed $RANDOM kspipi.opt
 ```
