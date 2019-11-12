@@ -1,23 +1,5 @@
 # Getting Started
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorryecho 'You got to trust me on this, I saved the world'
-```
-
 ## Introduction
 
 If you study any multi-body decay \(that is 3 or more particles in the final state\), you may want to do "amplitude analysis" of these decays. AmpGen is \(as the name implies\) a software suite that lets you study amplitudes of multi-body decays.
