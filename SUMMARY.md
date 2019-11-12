@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting Started](Getting-Started.md)
 * [index](untitled.md)
 * [Amplitudes](amplitudes.md)
 
