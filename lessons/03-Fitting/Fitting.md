@@ -29,13 +29,13 @@ this will fit ``data.root`` with our ``model.opt`` values and output the fit log
 
 In the file, ``plots.root``, we see two sets of distributions of the Dalitz variables in our decay.
 
-![](lessons/03-Fitting/TBrowser.png)
+![](TBrowser.png)
 
 We can see, by eye, how good our fit is by comparing the fitted distribution to the distributions from data, (the crosses are the fitted values and the line is the data).
 
-![](lessons/03-Fitting/s01.png)
-![](lessons/03-Fitting/s02.png)
-![](lessons/03-Fitting/s12.png)
+![](s01.png)
+![](s02.png)
+![](s12.png)
 
 To get quantitative data on the fit quality, we look at the ``fit.log``, where we find entries such as 
 
