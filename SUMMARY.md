@@ -2,4 +2,5 @@
 
 * [Getting Started](README.md)
 * [index](untitled.md)
+* [Amplitudes](amplitudes.md)
 
