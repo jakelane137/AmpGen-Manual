@@ -62,9 +62,9 @@ N_{params} = 38 \\
 -2\log\mathcal{L} = -18818.676
 ```
 The number of degrees of freedom is given by
-```math
+$$
 N_{dof} = N_{bins} - N_{params} - 1
-```
+$$
 
 so we have a $`\chi^2/N_{dof} = 0.9976`$, which is close to 1 (as expected!)
 
