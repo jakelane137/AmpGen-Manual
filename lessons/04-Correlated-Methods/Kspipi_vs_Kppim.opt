@@ -1,0 +1,10 @@
+nCores 10
+makeCPConj true
+Import kspipi.opt
+TagTypes  {
+    "Kppim       D0{K+,pi-}"
+}
+D0{K+,pi-}_Re 2 0 0
+D0{K+,pi-}_Im 2 0 0
+Dbar0{K+,pi-}_Re 2 1 0
+Dbar0{K+,pi-}_Im 2 0 0

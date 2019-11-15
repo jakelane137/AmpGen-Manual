@@ -1,0 +1,10 @@
+nCores 10
+makeCPConj true
+Import kspipi.opt
+TagTypes  {
+    "KK       D0{K+,K-}"
+}
+D0{K+,K-}_Re 2 1 0
+D0{K+,K-}_Im 2 0 0
+Dbar0{K+,K-}_Re 2 1 0
+Dbar0{K+,K-}_Im 2 0 0
