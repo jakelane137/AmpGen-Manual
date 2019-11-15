@@ -103,12 +103,14 @@ python3 compare.py
 ```
 one will see the following plots.
 
-![](s12.png)
-![](s13.png)
-![](s23.png)
-![](s12xs13.png)
-![](s12xs23.png)
-![](s13xs23.png)
+
+<img src="s12.png" alt="Projection of m^2(KsPi+)" width="200"/>
+<img src="s13.png" alt="Projection of m^2(KsPi-)" width="200"/>
+<img src="s23.png" alt="Projection of m^2(Pi+Pi-)" width="200"/>
+<img src="s12xs13.png" alt="Projection of m^2(KsPi+) vs m^2(Kspi-)" width="200"/>
+<img src="s12xs23.png" alt="Projection of m^2(KsPi-) vs m^2(Pi+Pi-)" width="200"/>
+<img src="s13xs23.png" alt="Projection of m^2(KsPi-) vs m^2(Pi+Pi-)" width="200"/>
+
 
 Hopefully you can see that we have pulls (mostly) within $$\pm 1 \sigma $$ which shows that we are indeed reproducing the correlated case!
 
