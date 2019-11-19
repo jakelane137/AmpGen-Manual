@@ -1,0 +1,47 @@
+# Example usage of the K-matrix with P-vector parameters from https://arxiv.org/pdf/0804.2089.pdf 
+# Note that as amplitude conventions are likely to be very different, so shouldn't reproduce the results. 
+# The P-vector conventions on the other hand should be the same. 
+
+EventType D0 K0S0 pi+ pi- 
+
+# Flag to interpret complex numbers are (amp,phase) rather than real/imaginary, and angles in deg rather than rad.
+CouplingConstant::Coordinates  polar
+CouplingConstant::AngularUnits deg 
+GenerateTimeDependent true
+
+
+
+
+# Import K-matrix parameters 
+Import $AMPGENROOT/options/kMatrix.opt
+
+D0_width                          Free 8.08 0.0001
+D0{K0S0,rho(770)0{pi+,pi-}}           Fix  1.000  0.00  Fix     0.0 0.0 
+D0{K*(892)bar-{K0S0,pi-},pi+}         Free  1.740  0.01  Free   139.0 0.3
+D0{K(0)*(1430)bar-,pi+}               Free  8.200  0.70  Fix   153.0 8.0
+# Coupling from D0 to K0S0,pipi S-wave, can be arbitrarily fixed.
+D0{K0S0,PiPi00}                       Fix  1  0.00  Fix     0.0 0.0 
+# 
+# # P-vector couplings of the pipi S-wave to the K-matrix. 
+PiPi00[kMatrix.pole.0]{pi+,pi-}       Free  9.30   0.40  Free   -78.7 1.6
+PiPi00[kMatrix.pole.1]{pi+,pi-}       Free 10.89   0.26  Free  -159.1 2.6
+PiPi00[kMatrix.pole.2]{pi+,pi-}       Free 24.20   2.00  Free   168.0 4.0
+PiPi00[kMatrix.pole.3]{pi+,pi-}       Free  9.16   0.24  Free    90.5 2.6
+
+PiPi00[kMatrix.prod.0]{pi+,pi-}       Free  7.94   0.40  Free    73.9 1.1
+PiPi00[kMatrix.prod.1]{pi+,pi-}       Free  2.00   0.30  Free   -18.0 9.0
+PiPi00[kMatrix.prod.2]{pi+,pi-}       Free  5.10   0.30  Free    33.0 3.0
+PiPi00[kMatrix.prod.3]{pi+,pi-}       Free  3.23   0.18  Free     4.8 2.5
+
+PiPi00_s0_prod 3 -0.07 0.03
+
+K(0)*(1430)bar-[LASS.BW]{K0S0,pi-}      2  0.01   0.00  2     0.0 0.0
+K(0)*(1430)bar-[LASS.NR]{K0S0,pi-}      Fix  0.01   0.00  Fix    20.0 0.0
+
+K(0)*(1430)bar-_mass                  2  1.463  0.002
+K(0)*(1430)bar-_width                 2  0.233  0.005
+
+# enforce CP symmetry in mass and width of K(0)
+K(0)*(1430)+_mass                     = K(0)*(1430)bar-_mass   
+K(0)*(1430)+_width                    = K(0)*(1430)bar-_width
+
