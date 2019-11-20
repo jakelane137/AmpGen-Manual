@@ -120,16 +120,16 @@ Projection of $$m^2_{\pi^+pi^-}$$
 
 ![](s12xs13.png) 
 
-Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{K_S^0\pi^+}
+Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{K_S^0\pi^+}$$
 
 ![](s12xs23.png) 
 
-Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{\pi^+\pi^-}
+Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{\pi^+\pi^-}$$
 
 
 ![](s13xs23.png) 
 
-Projection of $$m^2_{K_S^0\pi^+}$$ v.s. $$m^2_{\pi^+\pi^-}
+Projection of $$m^2_{K_S^0\pi^+}$$ v.s. $$m^2_{\pi^+\pi^-}$$
 
 
 
