@@ -30,19 +30,25 @@ We can examine the `ROOT` file with `TBrowser`, which should show the structure 
 `Generator` will automatically produce histograms for the Dalitz variables (in 1D and 2D)
 
 ![](s01.png)
+
 $$m_{K_S^0\pi^-}$$
 
 ![](s02.png)
+
 $$m_{K_S^0\pi^+}$$
 
 ![](s12.png)
+
 $$m_{\pi^+ \pi^-}$$
+
 ![](s01xs02.png)
 
 $$m_{K_S^0\pi^-}$$ vs  $$m_{K_S^0\pi^+}$$
 
 ![](s01xs12.png)
+
 $$m_{K_S^0\pi^-}$$ vs  $$m_{\pi^+\pi^+}$$
 
 ![](s02xs12.png)
+
 $$m_{K_S^0\pi^+}$$ vs  $$m_{\pi^+\pi^+}$$
