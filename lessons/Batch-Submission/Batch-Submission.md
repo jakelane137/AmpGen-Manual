@@ -30,3 +30,11 @@ source /cvmfs/sft.cern.ch/lcg/views/setupViews.sh LCG_94python3 x86_64-centos7-g
 then we can put our AmpGen commands in `exec.sh` and Condor will execute them.
 
 Since we are parrelising our work, it makes more sense to let each AmpGen process to just use a single thread so that at the cost of slower individual jobs we can perform many more at once. Since AmpGen is so efficient we don't really need to worry about this.
+
+To submit a job to the batch system use
+
+```
+condor_submit myJob.sub
+```
+
+

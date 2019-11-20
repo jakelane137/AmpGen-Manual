@@ -27,7 +27,7 @@ Generator --nEvents 100000 --EventType "D0 K0S0 pi- pi+" --Output Kspipi.root Ks
 which will produce the file, ``Kspipi.root`` which will have a new entry in the ``TTree``, ``DalitzEventList``
 
 
-![](decayTime.png)
+![](D0_decayTime.png)
 
 Fitting
 -------
