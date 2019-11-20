@@ -104,12 +104,34 @@ python3 compare.py
 one will see the following plots.
 
 
-<img src="s12.png" alt="Projection of m^2(KsPi+)" width="200"/>
-<img src="s13.png" alt="Projection of m^2(KsPi-)" width="200"/>
-<img src="s23.png" alt="Projection of m^2(Pi+Pi-)" width="200"/>
-<img src="s12xs13.png" alt="Projection of m^2(KsPi+) vs m^2(Kspi-)" width="200"/>
-<img src="s12xs23.png" alt="Projection of m^2(KsPi-) vs m^2(Pi+Pi-)" width="200"/>
-<img src="s13xs23.png" alt="Projection of m^2(KsPi-) vs m^2(Pi+Pi-)" width="200"/>
+![](s12.png) 
+
+Projection of $$m^2_{K_S^0\pi^-}$$
+
+
+![](s13.png) 
+
+Projection of $$m^2_{K_S^0\pi^+}$$
+
+
+![](s23.png) 
+
+Projection of $$m^2_{\pi^+pi^-}$$
+
+![](s12xs13.png) 
+
+Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{K_S^0\pi^+}
+
+![](s12xs23.png) 
+
+Projection of $$m^2_{K_S^0\pi^-}$$ v.s. $$m^2_{\pi^+\pi^-}
+
+
+![](s13xs23.png) 
+
+Projection of $$m^2_{K_S^0\pi^+}$$ v.s. $$m^2_{\pi^+\pi^-}
+
+
 
 
 Hopefully you can see that we have pulls (mostly) within $$\pm 1 \sigma $$ which shows that we are indeed reproducing the correlated case!
