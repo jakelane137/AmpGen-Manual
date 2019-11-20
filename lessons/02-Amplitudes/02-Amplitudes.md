@@ -19,7 +19,7 @@ These partial waves can be factorised into four components
 $$
 A_i = F_X F_r Z_L T_r
 $$
-where $$F_(X,r)$$ is the mother, resonance respectively. The "barrier factors", $$F$$ describe the production and decay of a resonance - these are known as "modifiers" to AmpGen, they are specified by the options
+where $$F_{(X,r)}$$ is the mother, resonance respectively. The "barrier factors", $$F$$ describe the production and decay of a resonance - these are known as "modifiers" to AmpGen, they are specified by the options
 ```
 Lineshapes::DefaultModifier BW
 ```
