@@ -34,8 +34,18 @@ In the file, ``plots.root``, we see two sets of distributions of the Dalitz vari
 We can see, by eye, how good our fit is by comparing the fitted distribution to the distributions from data, (the crosses are the fitted values and the line is the data).
 
 ![](s01.png)
+
+$$m_{K_S^0 \pi^-}$$
+
 ![](s02.png)
+
+
+$$m_{K_S^0 \pi^+}$$
+
 ![](s12.png)
+
+$$m_{\pi^+ \pi^-}$$
+
 
 To get quantitative data on the fit quality, we look at the ``fit.log``, where we find entries such as 
 
