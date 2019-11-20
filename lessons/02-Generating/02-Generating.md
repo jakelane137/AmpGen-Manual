@@ -24,14 +24,23 @@ The output from the above command should look like
 ![](Generator_Output.png)
 
 We can examine the `ROOT` file with `TBrowser`, which should show the structure of the output file
+
 ![](TBrowser.png)
 
 `Generator` will automatically produce histograms for the Dalitz variables (in 1D and 2D)
 
 ![](s01.png)
+
+
 ![](s02.png)
+
+
 ![](s12.png)
 
 ![](s01xs02.png)
+
+
 ![](s01xs12.png)
+
+
 ![](s02xs12.png)
