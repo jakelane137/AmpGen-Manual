@@ -7,3 +7,4 @@
 * [Exporting Models](lessons/05-Exporting-Models/Exporting-Models.md) 
 * [Time Dependence](lessons/06-Time-dependence/Time-dependence.md)
 * [Batch Submission](lessons/Batch-Submission/Batch-Submission.md)
+* [Grid Submission](lessons/Grid-Submission/Grid-Submission.md)
