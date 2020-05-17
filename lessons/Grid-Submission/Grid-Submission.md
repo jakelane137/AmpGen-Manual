@@ -89,3 +89,7 @@ j.backend = Dirac()
 then you can submit your job or add other options to it (if your script needs additional arguements etc.)
 
 
+Troubleshooting
+---
+
+Since we are running our program on a large number of possible systems that we have no practical way of accessing, its likely we might run into problems when using singularity images. Unfortunately the only solution (for now) is to "ban" sites that seem to have these problems and resubmit the failed jobs. 
