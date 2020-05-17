@@ -83,6 +83,7 @@ imageFile = DiracFile("ampgen.sif", lfn="/lhcb/user/X/USERNAME/ampgen.sif")
 scriptFile = LocalFile("my_script.sh")
 BannedSites = ["LCG.CSCS.ch","LCG.CBPF.br","LCG.PIC.es", "VAC.Glasgow.uk", "LCG.IN2P3.fr", "DIRAC.HLTFarm.lhcb", "LCG.Lancaster.uk", "LCG.NIKHEF.nl"]
 j.inputfiles = [imageFile, scriptFile]
+j.application.platform="haswell-centos7"
 j.backend = Dirac()
 ```
 then you can submit your job or add other options to it (if your script needs additional arguements etc.)
