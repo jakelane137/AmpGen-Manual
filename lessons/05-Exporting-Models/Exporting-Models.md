@@ -1,4 +1,0 @@
-Exporting Models in AmpGen
-==========================
-
-
