@@ -16,7 +16,7 @@ That's about it for running jobs on the Grid!
 
 Unfortunately, it seems that running jobs on the Grid is not as simple as just supplying a script like HTCondor - this is likely due to the larger number and variety of worker nodes you have on the Grid.
 
-To make absolutely sure that the Worker Node \(WN\) will actually run our code, we will use a ```container''. This is a file that has everything the program we want to run needs, in our case we will make a file called``ampgen.sif`which will be about`500MB\` in size and upload it to the grid.
+To make absolutely sure that the Worker Node \(WN\) will actually run our code, we will use a container. This is a file that has everything the program we want to run needs, in our case we will make a file called `ampgen.sif` which will be about `500MB` in size and upload it to the grid.
 
 ## Building the container
 
