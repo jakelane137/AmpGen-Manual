@@ -12,7 +12,46 @@ dirac-proxy-init
 
 That's about it for running jobs on the Grid!
 
-## Singularity Containers
+##Gaudi Package Hack
+AmpGen is a part of Gauss, however we will probably want to run a custom version of AmpGen, e.g. if we want to fit correlated data or we modify a program.
+Fortunately we can `hack' the Gauss version of AmpGen and swap our AmpGen code instead of the stuff given by Gauss. 
+
+In lxplus
+
+```text 
+lb-dev --name GaussDev Gauss/latest
+cd GaussDev
+git lb-use Gauss
+git lb-checkout Gauss/master Gen/AmpGen
+```
+
+Now we have Gauss's version of AmpGen. All we need to do is replace all the files in Gen/AmpGen/(AmpGen,src,options). 
+Here's a script you can modifiy to replace the Gauss version of AmpGen with one you've built on lxplus, note that there are some custom programs (e.g. MI.cpp, BESIIILHCbKspipi.cpp)
+
+```text
+#!/bin/bash
+SOURCE=/afs/cern.ch/user/j/jolane/sw/AmpGen
+TARGET=/afs/cern.ch/user/j/jolane/sw/AmpGenGauss/GaussDev/Gen/AmpGen
+
+rm $TARGET/AmpGen/*.h
+rm $TARGET/src/*.cpp
+rm $TARGET/src/Lineshapes/*.cpp
+
+rm $TARGET/apps/*.cpp
+
+cp $SOURCE/AmpGen/*.h $TARGET/AmpGen/
+cp $SOURCE/src/*.cpp $TARGET/src
+cp $SOURCE/options/* $TARGET/options/
+cp $SOURCE/doc/* $TARGET/doc/
+cp $SOURCE/src/Lineshapes/*.cpp $TARGET/src/Lineshapes
+cp $SOURCE/examples/{MI,gammaGen,QcGen2,gamCombFit,BESIIILHCbKspipi,SignalOnlyFitter}.cpp $TARGET/apps
+cp $SOURCE/apps/Generator.cpp $TARGET/apps
+
+```
+just replace the SOURCE and TARGET variables to point to your local build of AmpGen on lxplus and the location of AmpGen inside the GaussDev directory
+
+
+## Singularity Containers (Slow option)
 
 Unfortunately, it seems that running jobs on the Grid is not as simple as just supplying a script like HTCondor - this is likely due to the larger number and variety of worker nodes you have on the Grid.
 
